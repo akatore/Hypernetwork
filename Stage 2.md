@@ -35,9 +35,15 @@ docker volume create hyper-volume
 docker run --name hyper-postgres -e POSTGRES_PASSWORD=$password -e POSTGRES_PASSWORD=$password -e POSTGRES_USER=$user -e POSTGRES_DB=$db -p 5432:5432 -v hyper-volume:/var/lib/postgresql/data -d postgres:15.3
 ```
 
-```
+```powershell
 docker network connect <network-name> <container-name>
 ```
-```
+```powershell
 docker network connect  hyper-network c7276e09f06777d217ef6808dde20390f035dcb711c135d022fa58e72473efa0
+```
+```powershell
+(VirtualEnvironment) PS C:\Users\Abhijeet Katore\PycharmProjects\HyperNetwork1> docker ps -a
+CONTAINER ID   IMAGE           COMMAND                  CREATED          STATUS          PORTS                                         NAMES
+c7276e09f067   postgres:15.3   "docker-entrypoint.s…"   11 minutes ago   Up 11 minutes   0.0.0.0:5432->5432/tcp, [::]:5432->5432/tcp   hyper-postgres
+
 ```
