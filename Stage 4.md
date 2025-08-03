@@ -17,15 +17,19 @@ Create the users table;
 In the users table, create the id field of the integer type;
 
 In the users table, create the user_name field of the varchar type, length 99;
-<img width="954" height="492" alt="image" src="https://github.com/user-attachments/assets/e4b3d8e1-0067-4281-b50d-2457c77425b1" />
+<img width="955" height="477" alt="image" src="https://github.com/user-attachments/assets/ecb3a02b-defb-458f-bdf7-353d93f88475" />
+
+
 
 Insert one record with the 99 id and the hyper-user username.
 
 `click New Item`
-<img width="940" height="402" alt="image" src="https://github.com/user-attachments/assets/dca05d9d-b70b-4141-a4a5-dced0c5f2346" />
+<img width="947" height="404" alt="image" src="https://github.com/user-attachments/assets/5a400cb9-12a5-4ac5-a038-4ce1819695d9" />
 
 
 
 
 
-<img width="950" height="553" alt="image" src="https://github.com/user-attachments/assets/c00639a2-c4ae-4711-8ed2-559a03f8d936" />
+
+<img width="955" height="572" alt="image" src="https://github.com/user-attachments/assets/a8553912-973f-472a-b1c4-b55cb9c923c0" />
+
