@@ -32,7 +32,7 @@ docker network create hyper-network
 docker volume create hyper-volume
 ```
 ```powershell
-docker run --name hyper-postgres -e POSTGRES_PASSWORD=$password -e POSTGRES_PASSWORD=$password -e POSTGRES_USER=$user -e POSTGRES_DB=$db -p 5432:5432 -v hyper-volume:/var/lib/postgresql/data -d postgres:15.3
+docker run --name hyper-postgres -e POSTGRES_PASSWORD=$password -e POSTGRES_USER=$user -e POSTGRES_DB=$db -p 5432:5432 -v hyper-volume:/var/lib/postgresql/data -d postgres:15.3
 ```
 
 ```powershell
